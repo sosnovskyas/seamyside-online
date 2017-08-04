@@ -3,9 +3,9 @@ const webpack = require("webpack");
 
 module.exports = {
     devtool: 'inline-source-map',
-    entry: './src/index.ts',
+    entry: './src/index.tsx',
     output: {
-        filename: "bundle.js",
+        filename: "index.js",
         path: __dirname + "/dist"
     },
     resolve: {
